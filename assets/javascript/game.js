@@ -34,13 +34,30 @@ $(document).ready(function(){
 			// guessesLeft--;
 			// if guessesLeft = 0
 				// write to DOM Game Over and show word
-				
-// }
 
-// on new game button click
+// }
 
 // EVENT LISTNERS
 
+// New Game Button
+	// run newGame()
+
+//on document.on(keyup) event
+	// $(document).on("keyup" function(event))
+	// console.log(event.value)
+	
+	//var keyVal = event.value
+
+	// check the game isnt over
+
+	// check that the key pressed is a letter 
+
+	// check if the key was pressed already
+	// indexOf[-1]
+		// if not push to array
+		// call letterPressed(keyVal)
+
+	// else let them know they guessed it already
 
 
 
