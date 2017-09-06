@@ -27,13 +27,14 @@
 		<h1> Hangman Y'all!</h1>
 		<p>Betta be clickn' that there "New Game" button t'get started.</p>
 
-		<button class="btn btn-success btn-lg">New Game</button>
+		<button class="btn btn-success btn-lg" id="new-game">New Game</button>
 	</div>
 
 	<div class="row">
 	
 		<div class="col-md-6  stats-col">
 			<h3> Game Stats </h3>
+			<div id="game-over"></div>
 			<div id="wins-div">Wins:</div>
 			<div id="losses-div">Losses:</div>
 			
@@ -47,6 +48,8 @@
 			<div id="letters-guessed">Letters Guessed:</div>
 
 		</div>
+
+		<div class="col-md-12 btn-div"></div>
 		
 	</div>
 	
@@ -55,5 +58,5 @@
 
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="assets/javascript.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </html>
